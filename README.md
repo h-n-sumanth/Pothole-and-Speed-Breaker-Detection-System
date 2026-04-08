@@ -79,28 +79,37 @@ project_root/
 ```
 
 ## 💻 Installation (Step-by-Step)
-```
+
 ### 1️⃣ Clone the repository
 
+```
 https://github.com/h-n-sumanth/Pothole-and-Speed-Breaker-Detection-System.git
+```
 
 ### 2️⃣ Open project folder
 
+```
 cd your-repo-name
+```
 
 ### 3️⃣ Create virtual environment
 
+```
 python -m venv venv
+```
 
 ### 4️⃣ Activate environment
 
+```
 venv\Scripts\activate
+```
 
 ### 5️⃣ Install dependencies
 
-pip install -r requirements.txt
-
 ```
+pip install -r requirements.txt
+```
+
 
 ## ▶️ How to Run
 ```
