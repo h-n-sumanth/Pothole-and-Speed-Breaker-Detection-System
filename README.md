@@ -68,7 +68,6 @@ pothole_speedbreaker/
 ├── models/
 │   └── road_detection_model.h5
 │
-├── captured_rois/
 ├── debug_saves/
 │
 ├── detect_image.py
