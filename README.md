@@ -12,8 +12,7 @@ The system analyzes road images (live camera or stored images) and classifies th
 
 It uses a **CNN model based on MobileNetV2** for fast and accurate detection.
 
----
-
+```
 ## 🎯 Objectives
 
 * Detect road hazards automatically
@@ -21,10 +20,11 @@ It uses a **CNN model based on MobileNetV2** for fast and accurate detection.
 * Provide real-time alerts to users
 * Replace manual road inspection
 
----
+```
 
 ## ⚙️ Features
 
+```
 * 📷 Real-time detection using webcam
 * 🖼️ Image-based detection
 * 🤖 Deep learning model (MobileNetV2)
@@ -32,27 +32,25 @@ It uses a **CNN model based on MobileNetV2** for fast and accurate detection.
 * 🖥️ Simple GUI using Tkinter
 * ⚡ Fast and efficient processing
 
----
+```
 
 ## 🛠️ Technologies Used
-
+```
 * Python
 * OpenCV
 * TensorFlow / Keras
 * NumPy
 * Tkinter
 
----
-
+```
 ## 🧠 How It Works
-
+```
 1. Capture image from camera or dataset
 2. Preprocess image (resize, normalize)
 3. Pass image to trained CNN model
 4. Model predicts road condition
 5. Display result with alert
-
----
+```
 
 ## 📂 Project Structure
 ```
@@ -89,7 +87,7 @@ https://github.com/h-n-sumanth/Pothole-and-Speed-Breaker-Detection-System.git
 ### 2️⃣ Open project folder
 
 ```
-cd your-repo-name
+cd Pothole-and-Speed-Breaker-Detection-System
 ```
 
 ### 3️⃣ Create virtual environment
@@ -112,23 +110,22 @@ pip install -r requirements.txt
 
 
 ## ▶️ How to Run
-```
+
 ### 🔹 Run main application
-
+```
 python main.py
-
+```
 ### 🔹 Run live detection (camera)
-
+```
 python live_predict_image.py
-
+```
 ### 🔹 Run image detection
-
+```
 python detect_image.py
-
+```
 ### 🔹 Train model
-
+```
 python train_model.py
-
 ```
 
 ## 📊 Output
