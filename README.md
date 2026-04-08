@@ -57,26 +57,25 @@ It uses a **CNN model based on MobileNetV2** for fast and accurate detection.
 ## 📂 Project Structure
 
 project_root/
+│── dataset/
+│   │── train/
+│   │   │── normal/
+│   │   │── pothole/
+│   │   │── speedbreaker/
+│   │── validation/
 │
-├── dataset/
-│   ├── train/
-│   │   ├── normal/
-│   │   ├── pothole/
-│   │   └── speedbreaker/
-│   └── validation/
+│── models/
+│   │── road_detection_model.h5
 │
-├── models/
-│   └── road_detection_model.h5
+│── debug_saves/
 │
-├── debug_saves/
+│── detect_image.py
+│── live_predict_image.py
+│── train_model.py
+│── main.py
 │
-├── detect_image.py
-├── live_predict_image.py
-├── train_model.py
-├── main.py
-│
-├── requirements.txt
-└── README.md
+│── requirements.txt
+│── README.md
 
 ---
 
@@ -84,7 +83,7 @@ project_root/
 
 ### 1️⃣ Clone the repository
 
-
+https://github.com/h-n-sumanth/Pothole-and-Speed-Breaker-Detection-System.git
 
 ### 2️⃣ Open project folder
 
