@@ -54,26 +54,29 @@ It uses a **CNN model based on MobileNetV2** for fast and accurate detection.
 
 ## 📂 Project Structure
 ```
-project_root/
-│── dataset/
-│   │── train/
-│   │   │── normal/
-│   │   │── pothole/
-│   │   │── speedbreaker/
-│   │── validation/
+pothole_speedbreaker/
+├── dataset/
+│   ├── train/
+│   │   ├── normal/
+│   │   ├── pothole/
+│   │   └── speedbreaker/
+│   └── validation/
+│       ├── normal/
+│       ├── pothole/
+│       └── speedbreaker/
 │
-│── models/
-│   │── road_detection_model.h5
+├── models/
+│   └── road_detection_model.h5
 │
-│── debug_saves/
+├── captured_rois/
+├── debug_saves/
 │
-│── detect_image.py
-│── live_predict_image.py
-│── train_model.py
-│── main.py
+├── detect_image.py
+├── live_predict_image.py
+├── train_model.py
+├── main.py
 │
-│── requirements.txt
-│── README.md
+├── requirements.txt
 ```
 
 ## 💻 Installation (Step-by-Step)
