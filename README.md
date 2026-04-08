@@ -79,7 +79,7 @@ project_root/
 ```
 
 ## 💻 Installation (Step-by-Step)
-
+```
 ### 1️⃣ Clone the repository
 
 https://github.com/h-n-sumanth/Pothole-and-Speed-Breaker-Detection-System.git
@@ -100,10 +100,10 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
----
+```
 
 ## ▶️ How to Run
-
+```
 ### 🔹 Run main application
 
 python main.py
@@ -120,7 +120,7 @@ python detect_image.py
 
 python train_model.py
 
----
+```
 
 ## 📊 Output
 
@@ -156,6 +156,8 @@ MCA Student – CMR Institute of Technology
 ---
 
 ## 📌 Notes
+```
+* Use python version 10
+* if you want to increase model accuracy add more image to dataset and train model
+```
 
-* Do NOT upload `venv/` or `.venv/`
-* Use `requirements.txt` to install dependencies
