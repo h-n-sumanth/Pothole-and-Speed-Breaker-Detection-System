@@ -55,7 +55,7 @@ It uses a **CNN model based on MobileNetV2** for fast and accurate detection.
 ---
 
 ## 📂 Project Structure
-...
+```
 project_root/
 │── dataset/
 │   │── train/
@@ -76,7 +76,7 @@ project_root/
 │
 │── requirements.txt
 │── README.md
-...
+```
 
 ## 💻 Installation (Step-by-Step)
 
